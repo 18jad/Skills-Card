@@ -1,3 +1,5 @@
+/* This file is just if you want a custom cursor you can remove it and remove the css to disable it */
+
 const cursor = document.querySelector('.cursor');
 
 document.addEventListener('mousemove', e => {

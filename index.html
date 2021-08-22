@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/magic-mouse.css">
-    <script src="./js/magic_mouse.js"></script>
+     <!-- This file is just if you want a custom cursor you can remove it to disable it  -->
+    <link rel="stylesheet" href="./css/cursor.css">
+    
+    <!-- Font awesome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <title>Skills Card</title>
 </head>
 <body>
+    <div class="content">
     <div class="main center">
-        <!-- Fork Me on github -->
-        <a href="https://github.com/you"><img loading="lazy" width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149" class="fork" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+        <!-- Fork Me on github (Not Needed)-->
+        <a href="https://github.com/DizerX/Skills-Card"><img loading="lazy" width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149" class="fork" alt="Fork me on GitHub" data-recalc-dims="1"></a>
         
-        <!-- Custom Cursor -->
+        <!-- Custom Cursor (Optional)-->
         <div class="cursor"></div>
 
-        <!-- The Card -->
+        <!-- First Social Card -->
 
         <div class="box center">
             <!-- Animated circle around the profile -->
@@ -30,6 +34,8 @@
 
             <!-- Front of the Card -->
             <div class="about">
+
+                <!-- Your Name + Work -->
                 <sup><strong>Dizer</strong></sup>
                 <p class="user_name">Jad Yahya </p>
                 <p class="skill">Software Developer</p>
@@ -39,6 +45,7 @@
             </div>
 
             <!-- Back of the Card -->
+            <!-- Your Skills -->
             <div class="left_container off">
                 <p>Skills</p>
                 <div class="skills">
@@ -50,9 +57,11 @@
                     <div>C++</div>
                     <div>Firebase</div>
                 </div>
+
+                <!-- Your Social Medias -->
                 <div class="icons center">
                     <a href="https://github.com/DizerX"><i class="fab fa-github"></i></a>
-                    <a href="https://twitter.com/Dizer69"><i class="fab fa-twitter"></i></a>
+                    <a href="https://twitter.com/2jad0"><i class="fab fa-twitter"></i></a>
                     <a href="https://www.facebook.com/profile.php?id=100070689440021"><i class="fab fa-facebook"></i></a>
                     <a href="https://www.instagram.com/dizer.dev/"><i class="fab fa-instagram"></i></a>
                 </div>
@@ -61,11 +70,71 @@
                 </div>
             </div>
         </div>
+
+
+        <!-- Second Social Card -->
+
+
+        <div class="card__collection clear-fix">
+            <div class="cards cards--two">
+
+                <!-- Profile Picture -->
+                <img src="./images/profilepic.jpg" class="img-responsive" alt="Cards Image">
+
+                <!-- Hover Text -->
+                <span class="hover_text">HOVER ME FOR MORE INFO</span>
+                <span class="cards--two__rect"></span>
+                <span class="cards--two__tri"></span>
+
+                <!-- Your Work -->
+                <h4 class="top-p">Software <br>Developer</h4>
+
+                <!-- Your Name -->
+                <p>Jad Yahya</p>
+
+                <!-- Your Social Medias -->
+                <ul class="cards__list">
+                  <a href="https://www.facebook.com/profile.php?id=100070689440021"><li><i class="fab fa-facebook-f"></i></li></a>
+                  <a href="https://twitter.com/2jad0"><li><i class="fab fa-twitter"></i></li></a>
+                  <a href="https://www.instagram.com/dizer.dev/"><li><i class="fab fa-instagram"></i></li></a>
+                  <a href="https://github.com/DizerX"><li><i class="fab fa-github"></i></li></a>
+                </ul>
+              </div>
     </div>
+
+
+    <!-- Third Social Card -->
+
+    <div class="card">
+        <div class="image">
+
+            <!-- Profile Picture -->
+          <img src="./images/profilepic.jpg"/>
+        </div>
+        <div class="details">
+          <div class="center">
+
+              <!-- Your Name + Work + Biography -->
+            <h1>Jad Yahya<br><span>Software Developer</span></h1>
+            <p> I love Programming</p>
+
+            <!--Your Social Medias -->
+            <ul>
+              <li><a href="https://www.facebook.com/profile.php?id=100070689440021"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="https://twitter.com/2jad0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="mailto:jadoyahya@gmail.com"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
+              <li><a href="https://github.com/DizerX"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.instagram.com/dizer.dev/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+    </div>
+</div>
+    </div>
+</div>
     <!-- Script needed if you want the custome cursor -->
     <script src="./js/cursor.js"></script>
 
-    <!-- Script needed for the rotate animation -->
+    <!-- Script needed for the rotate animation in First Card-->
     <script src=".//js/script.js"></script>
 
 </body>
